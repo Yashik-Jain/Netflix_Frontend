@@ -1,0 +1,465 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.nav {
+    height: 80px;
+    /* border: 2px solid red; */
+    gap: 530px;
+}
+.img {
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.2s ease-out;
+}
+
+.img:hover {
+    height: 3rem;
+}
+.signin {
+    background-color: red;
+    color: white;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius:6px ;
+    cursor: pointer;
+    font-family: sans-serif;
+    transition: all .25s ease-out;
+}
+.signin:hover {
+    background-color: rgb(176, 4, 4);
+    font-size: 1.05rem;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    gap: 15px;
+}
+.image {
+    margin: 45px;
+}
+.lang {
+    padding: 5px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid rgb(113, 113, 113);
+    background-color: rgb(32, 28, 28);
+    color: white;
+    border-radius: 6px;
+    font-family: sans-serif;
+}
+.section1 {
+    background-image: radial-gradient(rgba(0, 0, 0, 0.736),rgba(8, 8, 8, 0.719)),url('https://assets.nflxext.com/ffe/siteui/vlv3/36a4db5b-dec2-458a-a1c0-662fa60e7473/1115a02b-3062-4dcc-aae0-94028a0dcdff/IN-en-20240820-TRIFECTA-perspective_WEB_eeff8a6e-0384-4791-a703-31368aeac39f_medium.jpg');
+    background-position: center;
+    height: 95vh;
+}
+ .content1 {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+ }
+ .heading1 {
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    color: white;
+ }
+ .heading2 {
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    color: white;
+ }
+ .heading3 {
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    color: white;
+ }
+ #email1 {
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 16px;
+    text-align: left;
+    border-radius: 4px;
+    background-color: black;
+    border: 1px solid grey;
+    color: white;
+    opacity: 0.8;
+    min-width: 400px;
+ }
+ #email2 {
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 16px;
+    text-align: left;
+    border-radius: 4px;
+    background-color: black;
+    border: 1px solid grey;
+    color: white;
+    opacity: 0.8;
+    min-width: 400px;
+ }
+ .buttons1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+ }
+ .getstarted {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: red;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    transition: all .25s ease-out;
+ }
+
+ .getstarted:hover {
+    background-color: rgb(176, 4, 4);
+    font-size: 1.5rem;
+ }
+
+.anchor {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.a {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+
+
+
+ .start img {
+    width: 10%;
+    background-color: black;
+ }
+
+.start {
+    text-decoration: none;
+}
+
+ .arrow {
+    padding-top: 4px;
+ }
+ .line {
+    height: 8px;
+    background-color: rgb(52, 51, 51);
+    border: none;
+ }
+.section2 {
+    display: flex;
+    background-color: black;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+/* -------------------------------------------------------- */
+.image2 {
+    height: 500px;
+    width: 680px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    position: relative;
+    z-index: 10;
+}
+
+.video2 {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    height: 260px;
+    width: 465px;
+}
+.video2 video {
+    object-fit: cover;
+    height: 262px;
+    width: 468px;
+}
+/* -------------------------------------------------------- */
+.con2 {
+    color: white;
+}
+.large {
+    font-size: 45px;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+.small {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.content2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.section3 {
+    display: flex;
+    background-color: black;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+.content3 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.section4 {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    gap: 40px;
+    z-index: -4;
+}
+/* ----------------------------------- */
+.image4 {
+    height: 550px;
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    position: relative;
+}
+.image4 img {
+    z-index: 4;
+}
+.video {
+    width: 392px;
+    height: 234px;
+    margin: auto;
+    position: absolute;
+    left: 19%;
+    top: 9%;
+}
+.video video {
+    width: 395px;
+    height: 232px;
+}
+/* ----------------------------------- */
+ 
+.content4 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.section5 {
+    display: flex;
+    background-color: black;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+.content5 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+/* .boxes {
+    display: grid;
+    place-items: center;
+    gap: 8px;
+} */
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.com {
+    display: flex;
+    
+}
+
+.heading6 {
+    height: 140px;
+    width: 90vw;
+    margin: auto;
+   display: flex;
+   justify-content: center;
+   align-items: end;
+   font-size: 50px;
+   font-weight: bolder;
+   font-family: sans-serif;
+   color: white;
+   padding-bottom: 25px;
+}
+.box {
+    width: 75vw;
+    height: 90px;
+    background-color: rgb(52, 52, 52);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 18px;
+    font-family: sans-serif;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+    transition: all 0.25s ease;
+}
+.box:hover {
+    background-color: rgb(86, 86, 86);
+}
+.con {
+    color: white;
+}
+.con6 {
+    font-size: 25px;
+}
+.sign {
+    font-size: 40px;
+}
+.section6 {
+    background-color: black;
+}
+.heading6l {
+    height: 90px;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 25px;
+}
+.lowercontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttons6 {
+    margin-bottom: 80px;
+}
+.boxes7 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.section7 {
+    padding: 50px 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 25px;
+    color: rgb(200, 192, 192);
+    background-color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.heading7 {
+    display: flex;
+    gap: 5px;
+}
+.number {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.desc {
+    display: none;
+    color: white;
+    animation: all 1s ease-in-out;
+    padding: 20px 18px;
+    min-height: 120px;
+    position: absolute;
+    top: 92px;
+    position: relative;
+    top: -2px;
+    animation: animation 0.30s ease-out;
+    z-index: 0;
+    cursor: text;
+}
+
+.desc3 {
+    min-height: 140px;
+}
+.desc4 {
+    min-height: 75px;
+}
+.desc5 {
+    min-height: 75px;
+}
+.desc6 {
+    min-height: 106px;
+}
+
+.com1 {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    position: relative;
+    min-height: 10vh;
+}
+
+.com {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    position: relative;
+    min-height: 10vh;
+}
+
+.cross {
+    display: none;
+    color: white;
+    size: 10px;
+}
+
+@keyframes animation {
+    from {
+        top: -100px;
+        display: none;
+    }
+    to {
+        top: -2px;
+        display: block;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; /* Adjust color to contrast with dark background */
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Darker shade for hover effect */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #333; /* Color of the track */
+  }
+  
