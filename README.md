@@ -42,10 +42,7 @@ It is built purely for learning and practice purposes.
 
 ## How to Use
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/repo-name.git
-   ```
+1. Clone the repository
 2. Open the folder
 3. Run **index.html** in your browser
 
